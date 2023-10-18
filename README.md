@@ -9,27 +9,20 @@ This Python-based tool has been designed to grade the Web Development Unit 1 cap
 ## Installation
 
 1. Clone the repository:
-```bash
 git clone <repository-url>
-```
 
 2. Navigate to the project directory:
-```bash
 cd <directory-name>
-```
 
 3. Ensure you have Python installed. You can check this by running:
-```bash
 python --version
-```
+
 
 ## Usage
 
 1. Update the `user_string.py` file with the HTML content that you want to grade.
 2. Run the grading script:
-```bash
 python grading_tool.py
-```
 
 3. Review the points and missing tags in the terminal output.
 
