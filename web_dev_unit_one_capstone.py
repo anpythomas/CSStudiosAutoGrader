@@ -61,6 +61,10 @@ def check_html_tags(html_string):
     if not re.search('<h[2-6]>.*?</h[2-6]>', html_string):
         missing_tags.append('subtitle (h2-h6)')
 
+    # Check for subtitle tags (h2 through h6)
+    if not re.search('<h[2-6]>.*?</h[2-6]>', html_string):
+        missing_tags.append('subtitle (h2-h6)')
+
     # Display results
     print(f"Total Points: {total_points}")
     if missing_tags:
