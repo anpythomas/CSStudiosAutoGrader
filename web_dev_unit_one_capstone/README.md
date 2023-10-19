@@ -9,20 +9,19 @@ This Python-based tool has been designed to grade the Web Development Unit 1 cap
 ## Installation
 
 1. Clone the repository:
-git clone <repository-url>
+git clone https://github.com/anpythomas/CSStudiosAutoGrader
 
 2. Navigate to the project directory:
-cd <directory-name>
+cd web_dev_unit_one_capstone
 
 3. Ensure you have Python installed. You can check this by running:
 python --version
-
 
 ## Usage
 
 1. Update the `user_string.py` file with the HTML content that you want to grade.
 2. Run the grading script:
-python grading_tool.py
+python main.py
 
 3. Review the points and missing tags in the terminal output.
 
@@ -31,6 +30,10 @@ python grading_tool.py
 - While this tool automates the grading process and captures many common patterns, it's essential to manually review the student's work to catch potential edge cases or unique situations.
   
 - The grading criteria are based on the presence of certain HTML tags. Adjust the code if your criteria differ.
+
+## Code Style
+
+We follow the [PEP 8](https://www.python.org/dev/peps/pep-0008/) style guidelines for writing Python code in this project. Please ensure that your contributions adhere to these guidelines to maintain code consistency.
 
 ## Contributing
 
